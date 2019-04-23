@@ -4,9 +4,8 @@ import NavbarSection from "./NavbarSection";
 function Navbar(){
   return(
     <div style={{float: "right"}}>
-      <NavbarSection name="Home"/>
-      <NavbarSection name="Events"/>
-      <NavbarSection name="About"/>
+      <NavbarSection link="/" name="Schedule"/>   
+      <NavbarSection link="/produce" name="Monthly produce"/>
     </div>
   );
 }
