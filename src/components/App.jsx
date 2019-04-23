@@ -1,5 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Header from "./Header";
+import ProduceTable from "./ProduceTable";
+import ScheduleTable from "./ScheduleTable";
 
 function App(){
 
@@ -11,8 +13,9 @@ function App(){
     
   return (
     <div>
-      <h1 style={{display: "inline-block"}}>Avery's Organics</h1>
-      <Navbar/> 
+      <Header/>
+      <ScheduleTable/>
+      <ProduceTable/>
     </div>
   );
 }
