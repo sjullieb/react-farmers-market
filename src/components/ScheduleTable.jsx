@@ -43,14 +43,14 @@ function ScheduleTable() {
   ];
 
   var scheduleStyle = {
-    border: "solid black 1px",
     width: "100%",
   };
 
   var grid = {
     display: 'grid',
-    gridTemplateColumns: '16% 17% 16% 16% 17% 16%',
-    // gridGap: '10px'
+    gridTemplateColumns: '15% 15% 15% 15% 15% 15%',
+    gridGap: '20px',
+  
   };
 
   return(

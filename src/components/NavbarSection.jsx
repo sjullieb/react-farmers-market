@@ -1,8 +1,11 @@
 import React from "react";
 
 function NavbarSection(props){
+  var navbarStyle={
+    display: "inline-block", margin: "20px"
+  }
   return(
-    <button style={{display: "inline-block", margin: "20px"}}>{props.name}</button>
+    <button style={{navbarStyle}}>{props.name}</button>
   );
 }
 

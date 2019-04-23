@@ -2,14 +2,24 @@ import React from "react";
 
 function Month(props){
   var monthStyle={
-    paddingLeft: "30px"
+    textAlign: "center",
   }
+
+  var gridStyle={
+    border: "solid black 1px",
+  }
+
+  var listStyle={
+    listStyle: "none",
+  }
+
   return(
-    <div>
+    <div style={gridStyle}>
       <h3 style={monthStyle}>{props.month}</h3>
-      <ul>{props.selection.map((produce, index) =>
+      <hr/>
+      <ul style={listStyle}>{props.selection.map((produce, index) =>
         <li key={index}>
-          <p>{produce}</p>
+          {produce}
         </li>
       )}
       </ul>

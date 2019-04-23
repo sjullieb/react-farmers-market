@@ -273,14 +273,13 @@ function ProduceTable() {
   ];
 
   var produceStyle = {
-    border: "solid black 1px",
     width: "100%",
   };
 
   var grid = {
     display: 'grid',
-    gridTemplateColumns: '25% 25% 25% 25%',
-    gridGap: '10px'
+    gridTemplateColumns: '15% 15% 15% 15% 15% 15%',
+    gridGap: '20px'
   };
 
   return(

@@ -2,7 +2,9 @@ import React from "react";
 
 function DayOfWeek(props){
   var dayStyle={
-    padding: "10px"
+    padding: "10px",
+    border: "solid black 1px",
+    height: "200px"
   }
   return(
     <div style={dayStyle}>
